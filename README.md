@@ -8,3 +8,9 @@
   - https://revolist.github.io/revogrid/demo/
   - https://david-desmaisons.github.io/Vue.D3.tree/tree
 - https://gridsome.org/
+
+## ideas for project
+- TODO APP
+- calculator
+- any game
+- stuff(clothes) register
