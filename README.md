@@ -1,1 +1,1 @@
-# grokking_vue
+# grokking vue.js
