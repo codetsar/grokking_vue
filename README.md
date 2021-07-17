@@ -146,6 +146,9 @@ v-bind:value='...'
 ```
 
 #### Conditional Content
+v-if (and v-show) allows you to render content only if a certain condition is met
+
+v-if can be combined with v-else and v-else-if (only on direct sibling elements!)
 ```html
 <p v-if="goals.length === 0"> No goals </p>
 <ul v-else>
@@ -156,12 +159,29 @@ v-bind:value='...'
 <p v-show="true"> uses css style "display: none" to hide element</p>
 ```
 #### Lists
+`v-for` can be used to render multiple elements dynamically
+
+`v-for` can be used with arrays, objects and ranges (numbers).
+
+You can exctract values, values and indexes or values, keys and indexes
+
+If you need `v-for` and `v-if`, DON't use them on the same element. Use a wrapper with `v-if` instead.
+
+##### Keys
+Vue re-uses DOM elements to optimize perfomance -> This can lead to bugs if elements contain state
+
+Bind the `key` attribute to a unique value to help Vue identify elements that belong to list content
 ```html
 <li v-for="(goal, idx) in goals"> {{ idx }}. {{ goal }} </li>
 
 <li v-for="(value, key, index) in {name: 'Max', age: 31}"> {{index}}, {{key}}, {{value}} </li>
 
 <li v-for="num in 10">{{ num }}</li>
+```
+
+Random Value Between min and max int
+```js
+Math.floor(Math.random() * (max-min) + min)
 ```
 ___
 
