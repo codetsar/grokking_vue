@@ -18,6 +18,7 @@
 - stuff(clothes) register
 - obsidian clone
 - steal CK3 popups
+- music.yandex.ru extension (`externalAPI.help()`)
 
 ## Academind Course Content
 ### Basics
