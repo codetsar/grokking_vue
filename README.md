@@ -8,6 +8,8 @@
   - https://revolist.github.io/revogrid/demo/
   - https://david-desmaisons.github.io/Vue.D3.tree/tree
 - https://gridsome.org/
+- https://github.com/hakimel/reveal.js/
+- https://hakim.se/
 
 ## ideas for project
 - TODO APP
@@ -18,6 +20,7 @@
 - stuff(clothes) register
 - obsidian clone
 - steal CK3 popups
+- music.yandex.ru extension (`externalAPI.help()`)
 
 ## Academind Course Content
 ### Basics
