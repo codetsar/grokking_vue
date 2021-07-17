@@ -26,7 +26,8 @@
   ___
   notes:
 
-Declarative approach
+#### Declarative approach
+Vue can be used to define the goal instead of the steps
 
 #### Interpolation (between tags)
  ```html
@@ -142,6 +143,25 @@ v-on:click
 // shorthand for bindings
 v-bind:value='...'
 :value='...'
+```
+
+#### Conditional Content
+```html
+<p v-if="goals.length === 0"> No goals </p>
+<ul v-else>
+  <li> Goal </li>
+</ul>
+```
+```html
+<p v-show="true"> uses css style "display: none" to hide element</p>
+```
+#### Lists
+```html
+<li v-for="(goal, idx) in goals"> {{ idx }}. {{ goal }} </li>
+
+<li v-for="(value, key, index) in {name: 'Max', age: 31}"> {{index}}, {{key}}, {{value}} </li>
+
+<li v-for="num in 10">{{ num }}</li>
 ```
 ___
 
