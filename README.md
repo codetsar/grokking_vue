@@ -29,18 +29,19 @@
 Declarative approach
 
 #### Interpolation (between tags)
- ```js
- {{ vue_obj }}
+ ```html
+<p> {{ vue_obj }} </p>
  ```
 
 #### Binding (inside tag)
- ```js
- v-bind:attr = "vue_data_variable"
+ ```html
+<input v-bind:value="vue_obj" />
  ```
  #### Pass html element
- ```js
- v-html="outputHtml()" // unsafe(!) crossite smth
+ ```html
+<span v-html="outputHtml()"></span> // unsafe(!) crossite smth
  ```
+ >Dynamically rendering arbitrary HTML on your website can be very dangerous because it can easily lead to XSS vulnerabilities. Only use HTML interpolation on trusted content and never on user-provided content.
 
 #### Access data in methods
  ```js
@@ -48,14 +49,16 @@ Declarative approach
  ```
 
 #### Two Way Binding
-```js
-v-bind:value v-on:input
-v-model
+```html
+<input v-bind:value='...' v-on:input='...' />
+<input v-model='...' />
 ```
 
 #### Computed Properties
 ```html
+  ...
   <p>Result: {{ methodLikeProperty }}</p>
+  ...
 ```
 ```js
   data(){
