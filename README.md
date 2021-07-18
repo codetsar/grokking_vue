@@ -10,6 +10,7 @@
 - https://gridsome.org/
 - https://github.com/hakimel/reveal.js/
 - https://hakim.se/
+- https://vuejs.org/v2/guide/components-custom-events.html#Event-Names
 
 ## ideas for project
 - TODO APP
