@@ -214,7 +214,7 @@ Custom events can **carry data** which can be used in the called method
 #### Provide-inject
 If data needs to be passed **across multiple components** ("pass-through"), you can use **provide/inject**
 
-**Provide data i a parent** component, **inject in into a child** component
+**Provide data in a parent** component, **inject it into a child** component
 ___
 - Advanced
   Vuex, Athentication(!), Deployment & Optimizations, Composition API, Re-using Code
