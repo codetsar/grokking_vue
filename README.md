@@ -201,7 +201,7 @@ Components are used to build UIs by **combining** them
 
 Components build **"parent-child"** relations and use "**unidirectional** data flows" for communication
 
-#### Props (parrent => child)
+#### Props (parent => child)
 "**Props**" are used to **pass data from a parent to a child** component
 
 Props should be **defined in advance**, possibly in great detail (type, required, etc)
