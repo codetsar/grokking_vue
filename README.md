@@ -204,8 +204,8 @@ Components are used to build UIs by **combining** them
 
 Components build **"parent-child"** relations and use "**unidirectional** data flows" for communication
 
-#### Props (parrent => child)
-"**Proprs**" are used to **pass data from a parent to a child** component
+#### Props (parent => child)
+"**Props**" are used to **pass data from a parent to a child** component
 
 Props should be **defined in advance**, possibly in great detail (type, required, etc)
 
@@ -217,7 +217,15 @@ Custom events can **carry data** which can be used in the called method
 #### Provide-inject
 If data needs to be passed **across multiple components** ("pass-through"), you can use **provide/inject**
 
-**Provide data i a parent** component, **inject in into a child** component
+**Provide data in a parent** component, **inject it into a child** component
+
+```js
+module.exports = {
+	devServer: {
+		public: '',
+	}
+}
+```
 ___
 - Advanced
   Vuex, Athentication(!), Deployment & Optimizations, Composition API, Re-using Code
