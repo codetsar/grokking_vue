@@ -219,7 +219,7 @@ If data needs to be passed **across multiple components** ("pass-through"), you 
 ```js module.exports = {
 	devServer: {
 		public: '',
-}
+	}
 ```
 ___
 - Advanced
