@@ -216,7 +216,8 @@ If data needs to be passed **across multiple components** ("pass-through"), you 
 
 **Provide data in a parent** component, **inject it into a child** component
 
-```js module.exports = {
+```js
+module.exports = {
 	devServer: {
 		public: '',
 	}
