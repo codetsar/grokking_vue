@@ -221,6 +221,7 @@ module.exports = {
 	devServer: {
 		public: '',
 	}
+}
 ```
 ___
 - Advanced
