@@ -11,6 +11,9 @@
 - https://github.com/hakimel/reveal.js/
 - https://hakim.se/
 - https://vuejs.org/v2/guide/components-custom-events.html#Event-Names
+- https://v3.vuejs.org/style-guide/
+- https://academind.com/learn/node-js/building-a-restful-api-with/what-is-a-restful-api-/
+- https://academind.com/learn/web-dev/how-the-web-works/
 
 ## ideas for project
 - TODO APP
