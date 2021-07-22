@@ -16,7 +16,7 @@
 - https://academind.com/learn/web-dev/how-the-web-works/
 
 ## ideas for project
-- TODO APP
+- TODO APP, pomodoro
 - calculator
 - keyboard trainer
 - any game
