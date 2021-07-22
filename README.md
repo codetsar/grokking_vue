@@ -25,6 +25,7 @@
 - obsidian clone
 - steal CK3 popups
 - music.yandex.ru extension (`externalAPI.help()`)
+- xer, mpp <-> txt
 
 ## Academind Course Content
 ### Basics
