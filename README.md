@@ -227,6 +227,19 @@ module.exports = {
 	}
 }
 ```
+
+Delayed watcher
+```js
+watch: {
+  enteredSearchTerm(val) {
+    setTimeout(() => {
+      if (val === this.enteredSearchTerm) {
+        this.activeSearchTerm = val;
+      }
+    }, 300);
+  }
+},
+```
 ___
 - Advanced
   Vuex, Athentication(!), Deployment & Optimizations, Composition API, Re-using Code
