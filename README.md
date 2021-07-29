@@ -243,3 +243,29 @@ watch: {
 ___
 - Advanced
   Vuex, Athentication(!), Deployment & Optimizations, Composition API, Re-using Code
+  
+  #### Composition API
+  
+  What & Why
+  
+  It's an **alternative** to the Options API: It uses `setup()` **to expose** logic/ data to the template
+  
+  It's a **function-based solution** that allows you to keep **logically related code together**
+  
+  Data & Reactivity
+  
+  Data can be managed as `ref()`s (individual values or objects) or `relative()` objects
+  
+  Reactivity is a key concept - refs and reactive objects are **reactive**, their **nested values are not**
+  
+  Methods, Computed, Watchers
+  
+  Methods become **regular functions** defined in setup()
+  
+  **Computed** properties and **watchers** are **defined with imported functions** (from vue)
+  
+  The setup() Function
+  
+  The setup() function is called by Vue when the **component is created** - it **defines data + logic** for the template
+  
+  setup() receives **two arguments** (automatically): **reactive props** and **context** (attrs, slots, emit())
